@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLAUVITAE - Jabones Artesanales Zodiacales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- HEADER / MENÚ -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="CLAUVITAE Logo" class="logo-img">
+                    <h1>CLAUVITAE</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#productos" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#beneficios" class="nav-link">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nosotros" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- CARRUSEL (PORTADA) -->
+        <section id="inicio" class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <div class="carousel-content">
+                        <h2>Conecta con tu energía natural</h2>
+                        <p>Descubre la magia de los jabones artesanales zodiacales</p>
+                        <button class="cta-button">Ver Productos</button>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="carousel-content">
+                        <h2>Jabones artesanales con esencia espiritual</h2>
+                        <p>Cada jabón es una experiencia única de conexión y bienestar</p>
+                        <button class="cta-button">Comprar Ahora</button>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="carousel-content">
+                        <h2>La energía de tu signo en tus manos</h2>
+                        <p>Productos naturales elaborados con amor y intención</p>
+                        <button class="cta-button">Descubrir Más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE EL PRODUCTO -->
+        <section id="sobre-producto" class="about-product">
+            <div class="container">
+                <h2 class="section-title">Jabones Artesanales Zodiacales</h2>
+                <p class="section-description">
+                    Jabones artesanales inspirados en los signos zodiacales. Cada jabón es 100% natural, elaborado con glicerina vegetal, aceites nutritivos y esencias seleccionadas según la energía de cada signo, pensados para brindar una experiencia espiritual y sensorial única. No es solo un producto, sino un momento de conexión y bienestar.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BENEFICIOS -->
+        <section id="beneficios" class="benefits">
+            <div class="container">
+                <h2 class="section-title">Beneficios de Nuestros Jabones</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3>Hidratante y Suave</h3>
+                        <p>No reseca la piel, la deja suave y nutrida</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Energía Zodiacal</h3>
+                        <p>Cada signo tiene su aroma y color propio según su energía</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-weight"></i>
+                        </div>
+                        <h3>Presentaciones Ideales</h3>
+                        <p>Disponibles en 60g y 100g para tu conveniencia</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>100% Natural</h3>
+                        <p>No hace mucha espuma pero limpia e hidrata perfectamente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <section id="productos" class="products">
+            <div class="container">
+                <h2 class="section-title">Nuestra Colección Zodiacal</h2>
+                <div class="products-grid">
+                    <!-- Aries -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♈</div>
+                        <h3>Aries</h3>
+                        <p class="aroma">Aroma: Cítrico enérgico</p>
+                        <p class="color">Color: Rojo intenso</p>
+                        <p class="description">Energía de liderazgo y valentía</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Tauro -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♉</div>
+                        <h3>Tauro</h3>
+                        <p class="aroma">Aroma: Lavanda calmante</p>
+                        <p class="color">Color: Verde terroso</p>
+                        <p class="description">Estabilidad y conexión con la tierra</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Géminis -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♊</div>
+                        <h3>Géminis</h3>
+                        <p class="aroma">Aroma: Menta fresca</p>
+                        <p class="color">Color: Amarillo brillante</p>
+                        <p class="description">Comunicación y dualidad creativa</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Cáncer -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♋</div>
+                        <h3>Cáncer</h3>
+                        <p class="aroma">Aroma: Rosa y jazmín</p>
+                        <p class="color">Color: Plateado suave</p>
+                        <p class="description">Intuición y emociones profundas</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Leo -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♌</div>
+                        <h3>Leo</h3>
+                        <p class="aroma">Aroma: Sándalo dorado</p>
+                        <p class="color">Color: Dorado real</p>
+                        <p class="description">Confianza y brillo personal</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Virgo -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♍</div>
+                        <h3>Virgo</h3>
+                        <p class="aroma">Aroma: Eucalipto limpio</p>
+                        <p class="color">Color: Verde menta</p>
+                        <p class="description">Pureza y orden natural</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Libra -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♎</div>
+                        <h3>Libra</h3>
+                        <p class="aroma">Aroma: Flor de cerezo</p>
+                        <p class="color">Color: Rosa pastel</p>
+                        <p class="description">Armonía y equilibrio perfecto</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Escorpio -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♏</div>
+                        <h3>Escorpio</h3>
+                        <p class="aroma">Aroma: Canela y pimienta</p>
+                        <p class="color">Color: Borgoña profundo</p>
+                        <p class="description">Transformación y poder interior</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Sagitario -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♐</div>
+                        <h3>Sagitario</h3>
+                        <p class="aroma">Aroma: Naranja y especias</p>
+                        <p class="color">Color: Púrpura aventurero</p>
+                        <p class="description">Libertad y expansión espiritual</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Capricornio -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♑</div>
+                        <h3>Capricornio</h3>
+                        <p class="aroma">Aroma: Pino y cedro</p>
+                        <p class="color">Color: Gris elegante</p>
+                        <p class="description">Disciplina y sabiduría ancestral</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Acuario -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♒</div>
+                        <h3>Acuario</h3>
+                        <p class="aroma">Aroma: Océano fresco</p>
+                        <p class="color">Color: Azul eléctrico</p>
+                        <p class="description">Innovación y conciencia universal</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+
+                    <!-- Piscis -->
+                    <div class="product-card">
+                        <div class="zodiac-icon">♓</div>
+                        <h3>Piscis</h3>
+                        <p class="aroma">Aroma: Lirio acuático</p>
+                        <p class="color">Color: Azul marino</p>
+                        <p class="description">Sensibilidad y conexión espiritual</p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MISIÓN Y VISIÓN -->
+        <section id="nosotros" class="about">
+            <div class="container">
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h2>Nuestra Misión</h2>
+                        <p>Brindar bienestar a través de productos naturales que conecten el cuerpo con la energía espiritual, promoviendo un estilo de vida consciente y en armonía con la naturaleza.</p>
+                    </div>
+                    <div class="vision">
+                        <h2>Nuestra Visión</h2>
+                        <p>Convertirnos en referente de productos artesanales zodiacales, llevando la energía de cada signo a hogares de todo el mundo y creando una comunidad conectada con el bienestar natural.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Escríbenos</h3>
+                        <p>Estamos aquí para responder tus preguntas y ayudarte a encontrar el jabón perfecto para tu energía.</p>
+                        <a href="https://wa.me/3112617515" class="whatsapp-button" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                        </a>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Tu nombre" required>
+                        <input type="email" placeholder="Tu email" required>
+                        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>CLAUVITAE</h3>
+                    <p>Jabones Artesanales Zodiacales</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61582143061538&locale=es_LA" aria-label="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/clauvitae/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p>Email: info@clauvitae.com</p>
+                    <p>Tel: +123 456 7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CLAUVITAE. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

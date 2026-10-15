@@ -1,0 +1,111 @@
+📋 LISTA DE ARCHIVOS PARA SUBIR A HOSTINGER
+==========================================
+
+✅ ARCHIVOS OBLIGATORIOS (Subir todos):
+
+📄 PÁGINA PRINCIPAL:
+├── index.html (15.8 KB) - Página web completa
+
+🎨 ESTILOS Y FUNCIONALIDAD:
+├── styles.css (14.4 KB) - Estilos CSS responsive
+├── script.js (14.4 KB) - Funcionalidad JavaScript
+
+📁 CARPETA DE IMÁGENES:
+└── images/
+    ├── logo.png (42 KB) - Logo principal ⚠️ REEMPLAZAR CON TU LOGO REAL
+    ├── favicon.png (42 KB) - Favicon ⚠️ REEMPLAZAR CON TU LOGO REAL
+    └── favicon.ico (0 KB) - Favicon alternativo ⚠️ REEMPLAZAR
+
+📖 DOCUMENTACIÓN:
+└── README.md (4.2 KB) - Instrucciones completas
+
+📊 TAMAÑO TOTAL: ~133 KB (sin contar imágenes reales)
+
+🚀 INSTRUCCIONES DE SUBIDA:
+==========================
+
+1️⃣ ANTES DE SUBIR:
+   • Reemplaza images/logo.png con tu logo real
+   • Reemplaza images/favicon.png con tu logo 32x32px
+   • Reemplaza images/favicon.ico con formato .ico
+
+2️⃣ MÉTODOS DE SUBIDA:
+   • FTP: Subir a public_html/
+   • File Manager: Arrastrar y soltar archivos
+   • Git: Clonar repositorio si está disponible
+
+3️⃣ ESTRUCTURA FINAL EN HOSTINGER:
+   public_html/
+   ├── index.html
+   ├── styles.css
+   ├── script.js
+   ├── README.md
+   └── images/
+       ├── logo.png
+       ├── favicon.png
+       └── favicon.ico
+
+⚙️ CONFIGURACIÓN POST-SUBIDA:
+=============================
+
+✅ VERIFICACIONES OBLIGATORIAS:
+   • El sitio carga correctamente
+   • El favicon aparece en el navegador
+   • Todos los botones de compra funcionan
+   • WhatsApp redirige a 3112617515
+   • Redes sociales abren correctamente
+
+✅ ENLACES CONFIGURADOS:
+   • WhatsApp: 3112617515
+   • Instagram: https://www.instagram.com/clauvitae/
+   • Facebook: https://www.facebook.com/profile.php?id=61582143061538&locale=es_LA
+
+🔧 CARACTERÍSTICAS TÉCNICAS:
+==========================
+
+✅ RESPONSIVE:
+   • Desktop: 4 columnas de productos
+   • Tablet: 2-3 columnas adaptables
+   • Móvil: 1 columna con menú hamburguesa
+
+✅ FUNCIONALIDADES:
+   • Carrusel automático (5 segundos)
+   • Menú navegación suave
+   • Animaciones al scroll
+   • Botones WhatsApp con mensajes personalizados
+   • Formulario de contacto funcional
+
+✅ OPTIMIZACIÓN:
+   • CSS y JavaScript optimizados
+   • Imágenes listas para web
+   • SEO básico implementado
+   • Accesibilidad HTML5
+
+⚠️ IMPORTANTE:
+============
+
+NO BORRAR NINGÚN ARCHIVO - TODOS SON NECESARIOS
+LA CARPETA ESTÁ LIMPIA - NO HAY ARCHIVOS INNECESARIOS
+
+📞 SOPORTE Y MANTENIMIENTO:
+========================
+
+• Para cambios: Modifica archivos localmente y sube nuevamente
+• Backup: Hostinger incluye backups automáticos
+• Actualizaciones: Reemplaza archivos individuales según necesites
+
+🎯 LISTA DE VERIFICACIÓN FINAL:
+=============================
+
+□ Logo real subido a images/logo.png
+□ Favicon real subido a images/favicon.png
+□ Todos los archivos subidos a Hostinger
+□ Sitio carga correctamente
+□ Botones de compra funcionan
+□ WhatsApp redirige correctamente
+□ Redes sociales funcionan
+□ Favicon visible en navegador
+□ Responsive probado en móvil
+□ Formulario de contacto funciona
+
+¡LISTO PARA PRODUCCIÓN! 🚀
